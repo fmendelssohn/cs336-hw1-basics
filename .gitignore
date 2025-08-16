@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.DS_Store
+data/
 
 # C extensions
 *.so
@@ -36,9 +38,9 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Unit test / coverage reports
 htmlcov/
 .tox/
+# Unit test / coverage reports
 .nox/
 .coverage
 .coverage.*
